@@ -655,6 +655,7 @@ fill: #ffffff;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
+    display: inline-flex;
 }
 
 .input-div {
