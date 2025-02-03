@@ -542,7 +542,7 @@ button {
     color: #ffffff;
 }
 
-placeholder {
+.placeholder {
     color: #ffffff;
 }
 
@@ -615,10 +615,12 @@ placeholder {
 .modal-btn:hover{
     fill: #ffffff;
     border: none;
+    background-color: #404bbf;
 }
 .modal-btn:focus {
 fill: #ffffff;
     border: none;
+    background-color: #404bbf;
 }
 
 .modal-close-icon{
@@ -670,8 +672,15 @@ fill: #ffffff;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    
 }
+
+.modal-input:focus{
+    border-color: #4D5AE5;
+}
+.modal-input:focus .modal-form-icon{
+    fill: #4D5AE5;
+}
+
 .modal-form-icon{
     position: absolute;
     left: 16px;
