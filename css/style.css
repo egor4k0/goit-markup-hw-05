@@ -747,6 +747,9 @@ fill: #ffffff;
     justify-content: center;
     fill: transparent;
 }
+.span-span{
+    display: inline-flex;
+}
 
 .input-input:checked + .label-label .label-span {
     background-color: #404bbf;
