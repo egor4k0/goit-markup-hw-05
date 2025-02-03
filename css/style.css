@@ -676,7 +676,7 @@ fill: #ffffff;
     border-color: #4D5AE5;
 }
 
-.modal-input:focus+.modal-form-icon {
+.modal-input:focus + .modal-form-icon {
     fill: #4d5ae5;
 }
 
@@ -745,7 +745,7 @@ fill: #ffffff;
     fill: transparent;
 }
 
-.input-input:checked+.label-label .label-span {
+.input-input:checked + .label-label .label-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -773,8 +773,7 @@ fill: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn:hover,
-.form-btn:focus {
+.form-btn:hover, .form-btn:focus {
     background-color: #404bbf;
 }
 
