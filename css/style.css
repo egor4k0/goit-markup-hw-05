@@ -734,9 +734,7 @@ fill: #ffffff;
     gap: 8px;
 }
 
-.span-span {
-    display: inline-flex;
-}
+
 .label-span {
 width: 16px;
     height: 16px;
@@ -751,7 +749,9 @@ width: 16px;
     margin-right: 8px;
     display: inline-flex;
 }
-
+footer span {
+    display: inline-flex;
+}
 
 .input-input:checked + .label-label .label-span {
     background-color: #404bbf;
