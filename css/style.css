@@ -711,7 +711,7 @@ fill: #ffffff;
 
 .label-div {
     margin-bottom: 24px;
-    
+    display: flex;
     align-items: center;
 }
 
@@ -729,7 +729,6 @@ fill: #ffffff;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
     gap: 8px;
 }
@@ -749,12 +748,7 @@ width: 16px;
     margin-right: 8px;
     display: inline-flex;
 }
-form span {
-    display: inline-flex;
-}
-.span-span{
-    display: inline-flex;
-}
+
 
 .input-input:checked + .label-label .label-span {
     background-color: #404bbf;
